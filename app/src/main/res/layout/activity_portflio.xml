@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_portflio"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/white"
+    tools:context="com.technawabs.adiportfolio.PortflioActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_blue"
+        android:layout_centerHorizontal="true"
+        android:text="@string/my_nanodegree_apps" />
+
+    <Button
+        android:id="@+id/openPopularMovie"
+        android:layout_width="@dimen/dimen_220dp"
+        android:layout_height="@dimen/dimen_48dp"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="@dimen/dimen_30dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/popular_movies"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/openStockHawk"
+        android:layout_width="@dimen/dimen_220dp"
+        android:layout_height="@dimen/dimen_48dp"
+        android:layout_below="@+id/openPopularMovie"
+        android:layout_centerHorizontal="true"
+        android:text="@string/stock_hawk"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/openBuildItBigger"
+        android:layout_width="@dimen/dimen_220dp"
+        android:layout_height="@dimen/dimen_48dp"
+        android:layout_below="@+id/openStockHawk"
+        android:layout_centerHorizontal="true"
+        android:text="@string/build_it_bigger"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/openMaterialApp"
+        android:layout_width="@dimen/dimen_220dp"
+        android:layout_height="@dimen/dimen_48dp"
+        android:layout_below="@+id/openBuildItBigger"
+        android:layout_centerHorizontal="true"
+        android:text="@string/material_app"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/openGoUbiquitous"
+        android:layout_width="@dimen/dimen_220dp"
+        android:layout_height="@dimen/dimen_48dp"
+        android:layout_below="@+id/openMaterialApp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/go_ubiquitous"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/openCapstone"
+        android:layout_width="@dimen/dimen_220dp"
+        android:layout_height="@dimen/dimen_48dp"
+        android:layout_below="@+id/openGoUbiquitous"
+        android:layout_centerHorizontal="true"
+        android:text="@string/capstone"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
